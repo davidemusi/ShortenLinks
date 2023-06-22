@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Login - Shortify URL{% endblock %}
+{% block login %}active{% endblock %}
+{% block content %}
+<div class="login-section mx-auto mt-5" style="max-width: 400px;">
+    <div class="card bg-body-tertiary shadow">
+        <div class="card-body">
+            <h3 class="card-title text-center">Login</h3>
+            <form method="POST" id="login-form">
+                <div class="mb-3">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pass">Password</label>
+                    <div class="input-icon-group">
+                        <input type="password" name="pass" id="pass" class="form-control" required>
+                        <i onclick="togglePasswordShow(this)" class="bi bi-eye"></i>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary d-block mx-auto mb-4">Login</button>
+                <div class="helps text-center">
+                    <p class="mb-0">Don&apos;t have an account? <a class="link-warning text-decoration-none" href="{{ esc_url('/register') }}">Register</a> here</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div style="height: 50px;"></div>
+{% endblock %}
