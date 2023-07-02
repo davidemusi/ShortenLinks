@@ -75,14 +75,14 @@ To get started with ShortenLinks, follow these steps:
  
 
   ## License
-    This project is licensed under the MIT License.
+  This project is licensed under the MIT License.
 
   ## Acknowledgements
-    We would like to acknowledge the following open-source projects that were instrumental in the development of ShortenLinks:
+  We would like to acknowledge the following open-source projects that were instrumental in the development of ShortenLinks:
 
-    Flask: A lightweight web framework for Python.
-    SQLAlchemy: A SQL toolkit and Object-Relational Mapping (ORM) library for Python.
-    Bootstrap: A popular CSS framework for building responsive websites.
+  - Flask: A lightweight web framework for Python.
+  - SQLAlchemy: A SQL toolkit and Object-Relational Mapping (ORM) library for Python.
+  - Bootstrap: A popular CSS framework for building responsive websites.
 
 
 
